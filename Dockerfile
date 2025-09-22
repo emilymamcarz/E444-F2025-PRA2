@@ -16,7 +16,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose Flask's default port
-EXPOSE 5000
+EXPOSE 5500
 
 # Run the Flask app
 CMD ["flask", "--app", "hello", "run", "--host=0.0.0.0"]
